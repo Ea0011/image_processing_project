@@ -18,3 +18,6 @@ The idea behind applying this filter before applying layer filters is to make co
 | 1   | 1   | 1   | 1   | 1   | 3   | 1   | 1   | 1   | 1   | 1   |
 | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   |
 | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   |
+
+
+This filter tries to approximate the application of the succession of the above mentioned filters. It gives more weight to the center pixel and less weight to pixels with more radius from the center. This gives an effect of blurring the image and fixing small distortions in the image. The effect is similar to the effect of above mentioned strategy.
