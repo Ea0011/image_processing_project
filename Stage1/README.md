@@ -21,3 +21,7 @@ The idea behind applying this filter before applying layer filters is to make co
 
 
 This filter tries to approximate the application of the succession of the above mentioned filters. It gives more weight to the center pixel and less weight to pixels with more radius from the center. This gives an effect of blurring the image and fixing small distortions in the image. The effect is similar to the effect of above mentioned strategy.
+
+# Stage 1.3 (Observations regarding Binary Layer 3)
+
+The smile causes a gap to appear between the area where Layer 3 would normally detect lips. Also, the nasal are shift upwards as the smile causes the are around the mouth to enlarge. The rotation of head does not affect what features it detects. However, we can see that it detects only the features that are facing more towards the camera. For instance, when the head is fully rotated, full ear is detected and some part of lips can be detected.
